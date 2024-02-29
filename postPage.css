@@ -1,0 +1,73 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.headerBar {
+    background-color: #007bff; /* Change to the desired blue color */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+}
+
+.headerBar h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center; /* Center the text */
+}
+
+.headerBar img {
+    height: 50px; /* Adjust the height as needed */
+    margin-right: 10px;
+}
+
+.bodyContent {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: flex-start;
+
+}
+
+h2 {
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+#textInput {
+    width: 50%; /* Set the width to 50% */
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: vertical;
+    box-sizing: border-box; /* Include padding and border in the width calculation */
+}
+.ProfileName{
+   align-self: flex-start;
+   margin-left: 15%;
+
+}
+
+
+.postButton {
+    background-color: #28a745; /* Change to the desired green color */
+    color: white;
+    border: none;
+    padding: 15px 30px; /* Increase padding for a larger button */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px; /* Increase margin-top for spacing */
+    display: block; /* Make the button a block element */
+    margin: 0 auto; /* Center the button horizontally */
+    font-size: large;
+}
+
+.postButton:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+}
